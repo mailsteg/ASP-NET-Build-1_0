@@ -1,0 +1,84 @@
+﻿@model IEnumerable<Blog.Models.LatinPage>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link href="~/Content/latin-styles.css" rel="stylesheet" />
+
+<h2 style="text-align:center" class="title">Latin Music</h2>
+
+<body class="wrapper">
+
+    <div class="description-block">
+        Latin music has roots in Southern Europe, Africa, and the indigenous cultures of Latin America,
+        so it's a pretty cool synthesis of world music. It is motivated by emotion and passion,
+        rhythm and movement, so get up on your feet because you can't take Latin music sitting down.
+        As they say in Latin America, ¡Baila!
+    </div>
+
+    <a href="@Url.Action("Singers", "LatinPages")">
+        <div class="menu-block">
+            <form>
+                <div style="color: indianred"><strong>Popular Singers</strong></div>
+            </form>
+        </div>
+    </a>
+
+    <a href="@Url.Action("Discussion", "LatinPages")">
+        <div class="menu-block">
+            <form>
+                <div style="color: indianred"><strong>Discussion Corner</strong></div>
+            </form>
+        </div>
+    </a>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Body)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Body)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    <br />
+
+    <div class="music">
+        <audio controls="controls" autoplay loop>
+            <source src="~/Content/background-music/marc%20anthony%20-%20vivir%20mi%20vida.mp3" type="audio/mpeg" />
+        </audio>
+        <p style="color:#e0e0e0">Marc Anthony - Vivir Mi Vida</p>
+    </div>
+
+</body>

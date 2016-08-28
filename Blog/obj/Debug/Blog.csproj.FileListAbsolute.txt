@@ -97,3 +97,21 @@ E:\Tosho\ASPNET PRoject Rumen\Blog\Blog\bin\Blog.dll
 E:\Tosho\ASPNET PRoject Rumen\Blog\Blog\bin\Blog.pdb
 E:\Tosho\ASPNET PRoject Rumen\Blog\Blog\obj\Debug\Blog.dll
 E:\Tosho\ASPNET PRoject Rumen\Blog\Blog\obj\Debug\Blog.pdb
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\ApplicationInsights.config
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\csc.exe
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\vbc.exe
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\Blog.dll.config
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\Blog.dll
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\bin\Blog.pdb
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\obj\Debug\Blog.dll
+C:\Users\User\Documents\GitHub\ASP-NET-Build-1_0\Blog\obj\Debug\Blog.pdb

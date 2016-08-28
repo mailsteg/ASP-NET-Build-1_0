@@ -199,6 +199,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HousesController.cs" />
+    <Compile Include="Controllers\LatinPagesController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PostsController.cs" />
     <Compile Include="Controllers\QuestionsController.cs" />
@@ -212,6 +213,7 @@
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\House.cs" />
+    <Compile Include="Models\LatinPage.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Models\Question.cs" />
@@ -301,6 +303,7 @@
     <Content Include="Content\BacgroundRussian.css" />
     <Content Include="Content\background-music\03. Metallica - For Whom the Bell Tolls.mp3" />
     <Content Include="Content\background-music\BEASTWARS - REALMS.mp3" />
+    <Content Include="Content\background-music\marc anthony - vivir mi vida.mp3" />
     <Content Include="Content\background-music\Russian\Ну, погоди.mp3" />
     <Content Include="Content\background-music\the doors -- break on through.mp3" />
     <Content Include="Content\bootstrap.css" />
@@ -315,6 +318,19 @@
     <Content Include="Content\img\home-view\ruski_pesnichki_HomeView.jpg" />
     <Content Include="Content\HomeView.css" />
     <Content Include="Content\img\home-view\srabsko_HomeView.jpg" />
+    <Content Include="Content\img\LatinImgs\CarlosSantana.jpg" />
+    <Content Include="Content\img\LatinImgs\DancingCouple.jpg" />
+    <Content Include="Content\img\LatinImgs\EnriqueIglesias.jpg" />
+    <Content Include="Content\img\LatinImgs\GloriaEstefan.jpg" />
+    <Content Include="Content\img\LatinImgs\JenniferLopez.jpg" />
+    <Content Include="Content\img\LatinImgs\Juanes.jpg" />
+    <Content Include="Content\img\LatinImgs\MarcAnthony.jpg" />
+    <Content Include="Content\img\LatinImgs\NellyFurtado.jpg" />
+    <Content Include="Content\img\LatinImgs\PrinceRoyce.jpg" />
+    <Content Include="Content\img\LatinImgs\RickyMartin.jpg" />
+    <Content Include="Content\img\LatinImgs\RomeoSantos.jpg" />
+    <Content Include="Content\img\LatinImgs\Shakira.jpg" />
+    <Content Include="Content\img\LatinImgs\Thalia.jpg" />
     <Content Include="Content\img\Metal images\1212292-ferreira-mariane-hd-pantera-picture.jpg" />
     <Content Include="Content\img\Metal images\flatbush-facebook-opengraph-d2c.jpg" />
     <Content Include="Content\img\Metal images\hqdefault.jpg" />
@@ -330,6 +346,7 @@
     <Content Include="Content\img\rock-button-href.jpg" />
     <Content Include="Content\img\rock-page-background.jpg" />
     <Content Include="Content\img\tumblr_n1kzb8xYhj1tooympo1_400.gif" />
+    <Content Include="Content\latin-styles.css" />
     <Content Include="Content\Metal.css" />
     <Content Include="Content\Rock.css" />
     <Content Include="Content\RockMetalIndex.css" />
@@ -426,6 +443,11 @@
     <Content Include="Views\Houses\Details.cshtml" />
     <Content Include="Views\Houses\Edit.cshtml" />
     <Content Include="Views\Houses\Index.cshtml" />
+    <Content Include="Views\LatinPages\Create.cshtml" />
+    <Content Include="Views\LatinPages\Delete.cshtml" />
+    <Content Include="Views\LatinPages\Details.cshtml" />
+    <Content Include="Views\LatinPages\Edit.cshtml" />
+    <Content Include="Views\LatinPages\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
